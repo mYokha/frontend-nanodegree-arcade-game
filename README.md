@@ -1,8 +1,7 @@
 # Frogger
 ## Arcade Game
----
 
-##### Here's how you play the game:
+### Here's how you play the game:
 - Load the game [here](https://myokha.github.io/frontend-nanodegree-arcade-game/)
 - The playground will appear. All you need to do is to reach the water
 - Use the arrows keys to move a player
@@ -10,7 +9,7 @@
 - If reach it the lert then you've won and an alert will appear on the screen
 - On this alert you will have to confirm if you wanna play one more time
 
-##### Notes
+### Notes
 - You can not move a player down off the playground
 - If you move it off the screen to the lef or on the right the player will appear on the other side of the screen like it would do if you play the snake for exmple
 - The player will reload if you hit one of the bugs

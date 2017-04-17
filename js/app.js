@@ -34,12 +34,12 @@ Enemy.prototype.update = function (dt, playr) {
     } else {
         this.x += this.v * dt;
     }
-};
+}
 
 // Draw the enemy on the screen, required method for game
 Enemy.prototype.render = function () {
     ctx.drawImage(Resources.get(this.sprite), this.x, this.y);
-};
+}
 
 // Now write your own player class
 // This class requires an update(), render() and
@@ -54,7 +54,7 @@ var Player = function(x, y) {
 
 Player.prototype.render = function() {
     ctx.drawImage(Resources.get(this.sprite), this.x, this.y);
-};
+}
 
 Player.prototype.reset = function () {
         this.x = PLAYER_START_X;
@@ -134,4 +134,4 @@ Enemy.prototype.checkCollision = function(playr) {
         console.log("Collision detected!");
         player.reset();
     }
-};
+}
