@@ -1,6 +1,23 @@
-frontend-nanodegree-arcade-game
-===============================
+# Frogger
+## Arcade Game
+---
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
+##### Here's how you play the game:
+- Load the game [here](https://myokha.github.io/frontend-nanodegree-arcade-game/)
+- The playground will appear. All you need to do is to reach the water
+- Use the arrows keys to move a player
+- Try to reach the water
+- If reach it the lert then you've won and an alert will appear on the screen
+- On this alert you will have to confirm if you wanna play one more time
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+##### Notes
+- You can not move a player down off the playground
+- If you move it off the screen to the lef or on the right the player will appear on the other side of the screen like it would do if you play the snake for exmple
+- The player will reload if you hit one of the bugs
+- Reload the page if you want to get another speed and starting position for every bug (those are chosen pseudorandomly)
+
+Good luck!
+---
+All credit goes to [Udacity](udacity.com) team who basically created the game.
+This project is a part of Front-End Nanodegree program which I'm enrolling.
+The original repo is [here](https://github.com/udacity/frontend-nanodegree-arcade-game).
